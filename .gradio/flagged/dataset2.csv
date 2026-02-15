@@ -1,0 +1,4 @@
+SeniorCitizen,tenure,MonthlyCharges,TotalCharges,gender,Partner,Dependents,PhoneService,MultipleLines,InternetService,OnlineSecurity,OnlineBackup,DeviceProtection,TechSupport,StreamingTV,StreamingMovies,Contract,PaperlessBilling,PaymentMethod,output,timestamp
+0,26.1,70,200,Male,Yes,Yes,Yes,Yes,DSL,Yes,Yes,Yes,Yes,Yes,Yes,Month-to-month,Yes,Credit card,No,2026-02-15 21:18:33.018512
+0,26.1,70,200,Female,Yes,Yes,Yes,Yes,DSL,Yes,Yes,Yes,Yes,Yes,Yes,Month-to-month,Yes,Credit card,No,2026-02-15 21:18:39.111241
+0,26.1,70,200,Female,No,Yes,No,Yes,DSL,Yes,Yes,Yes,Yes,Yes,Yes,Month-to-month,Yes,Credit card,No,2026-02-15 21:18:49.507497

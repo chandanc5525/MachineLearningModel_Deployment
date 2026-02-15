@@ -1,0 +1,3 @@
+gender,SeniorCitizen,Partner,Dependents,tenure,PhoneService,MultipleLines,InternetService,OnlineSecurity,OnlineBackup,DeviceProtection,TechSupport,StreamingTV,StreamingMovies,Contract,PaperlessBilling,PaymentMethod,MonthlyCharges,TotalCharges,output,timestamp
+male,10,ddsd,2,0,22,2,,,,,,,,,,,0,0,,2026-02-15 20:25:15.865104
+male,10,ddsd,2,0,22,2,2,2,,,,,,,,,0,0,,2026-02-15 20:25:20.150144
