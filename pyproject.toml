@@ -3,7 +3,7 @@ name = "machinelearningmodel-deployment"
 version = "1.0.0"
 description = "Mchine Learning Model Deployment with FastAPI, Flask, Gradio, and Streamlit"
 authors = [
-    { name = "Chandan Kumar", email = "chaudhari.chandan22@gmail.com"}]
+    { name = "Chandan Chaudhari", email = "chaudhari.chandan22@gmail.com"}]
 readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
