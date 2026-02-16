@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Telco Churn Prediction</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Telco Churn Prediction</h1>
+
+        <form method="post">
+
+            <h3>Numeric Inputs</h3>
+            {% for col, (min_val, max_val, default) in numeric_cols.items() %}
+                <label>{{ col }}</label>
+                <input type="number"
+                       name="{{ col }}"
+                       min="{{ min_val }}"
+                       max="{{ max_val }}"
+                       value="{{ default }}"
+                       step="any">
+            {% endfor %}
+
+            <h3>Categorical Inputs</h3>
+            {% for col, options in categorical_cols.items() %}
+                <label>{{ col }}</label>
+                <select name="{{ col }}">
+                    {% for option in options %}
+                        <option value="{{ option }}">{{ option }}</option>
+                    {% endfor %}
+                </select>
+            {% endfor %}
+
+            <button type="submit">Predict</button>
+        </form>
+
+        {% if prediction %}
+            <h2>Churn Prediction: {{ prediction }}</h2>
+        {% endif %}
+    </div>
+</body>
+</html>
