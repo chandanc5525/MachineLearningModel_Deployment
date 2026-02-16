@@ -2,7 +2,7 @@ Metadata-Version: 2.4
 Name: machinelearningmodel-deployment
 Version: 1.0.0
 Summary: Mchine Learning Model Deployment with FastAPI, Flask, Gradio, and Streamlit
-Author-email: Chandan Kumar <chaudhari.chandan22@gmail.com>
+Author-email: Chandan Chaudhari <chaudhari.chandan22@gmail.com>
 Requires-Python: >=3.13
 Description-Content-Type: text/markdown
 License-File: LICENSE
