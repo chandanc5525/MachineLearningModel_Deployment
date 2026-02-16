@@ -1,7 +1,5 @@
 # 📊 Customer Churn Prediction App
 
-# 📊 Customer Churn Prediction App
-
 ![Python](https://img.shields.io/badge/Python-3.10+-blue.svg)
 ![Framework](https://img.shields.io/badge/Framework-FastAPI%20%7C%20Flask%20%7C%20Streamlit%20%7C%20Gradio-green)
 ![ML](https://img.shields.io/badge/Model-RandomForest-orange)
@@ -27,102 +25,102 @@ Includes:
 🚀 SETUP INSTRUCTIONS (STEP-BY-STEP)
 ------------------------------------------------------------
 
-# 1️⃣ Fork the repository (from GitHub UI)
+### 1️⃣ Fork the repository (from GitHub UI)
 
-# 2️⃣ Clone your fork
+### 2️⃣ Clone your fork
 
 git clone https://github.com/YOUR-USERNAME/YOUR-REPO-NAME.git
 
 cd YOUR-REPO-NAME
 
 ------------------------------------------------------------
-# 3️⃣ Install uv (if not installed)
+### 3️⃣ Install uv (if not installed)
 ------------------------------------------------------------
 
-# Mac / Linux
+#### Mac / Linux
 
 curl -Ls https://astral.sh/uv/install.sh | sh
 
-# Windows (PowerShell)
+#### Windows (PowerShell)
 
 irm https://astral.sh/uv/install.ps1 | iex
 
-# Verify installation
+#### Verify installation
 
 uv --version
 
 ------------------------------------------------------------
-# 4️⃣ Create Virtual Environment
+### 4️⃣ Create Virtual Environment
 ------------------------------------------------------------
 
 uv venv
 
-# Activate virtual environment
+#### Activate virtual environment
 
-# Windows
+#### Windows
 
 .venv\Scripts\activate
 
-# Mac / Linux
+#### Mac / Linux
 
 source .venv/bin/activate
 
 ------------------------------------------------------------
-# 5️⃣ Install Project Dependencies
+### 5️⃣ Install Project Dependencies
 ------------------------------------------------------------
 
 uv sync
 
 ------------------------------------------------------------
-# 6️⃣ Train Model (Generate Pickle File)
+### 6️⃣ Train Model (Generate Pickle File)
 ------------------------------------------------------------
 
-# Make sure dataset exists:
+#### Make sure dataset exists:
 
-# data/churn.csv
+#### data/churn.csv
 
 python train_model.py
 
-# This creates:
+#### This creates:
 
-# models/churn_model.pkl
+#### models/churn_model.pkl
 
 ------------------------------------------------------------
 🌐 RUN APPLICATIONS
 ------------------------------------------------------------
 
 ------------------------------------------------------------
-▶️ Run Flask App
+### ▶️ Run Flask App
 ------------------------------------------------------------
 
 python deployments/flask/flask_app.py
 
-# Open in browser:
+#### Open in browser:
 
-# http://127.0.0.1:5000/
+#### http://127.0.0.1:5000/
 
 ------------------------------------------------------------
-▶️ Run FastAPI App
+### ▶️ Run FastAPI App
 ------------------------------------------------------------
 
 uvicorn deployments.fastapi.fastapi_app:app --reload
 
-# Open:
+####  Open:
 
-# http://127.0.0.1:8000/
+#### http://127.0.0.1:8000/
 
-# Swagger Docs:
+#### Swagger Docs:
 
-# http://127.0.0.1:8000/docs
+####  http://127.0.0.1:8000/docs
 
 ------------------------------------------------------------
-▶️ Run Streamlit App
+### ▶️ Run Streamlit App
 ------------------------------------------------------------
 
 streamlit run deployments/streamlit_app.py
 
 ------------------------------------------------------------
-▶️ Run Gradio App
+### ▶️ Run Gradio App
 ------------------------------------------------------------
 
 python deployments/gradio_app.py
